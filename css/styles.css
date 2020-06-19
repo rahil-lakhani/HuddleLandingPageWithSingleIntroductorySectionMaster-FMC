@@ -1,0 +1,204 @@
+
+/****** Default & General Styling ******/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+/*** Wrapper ***/
+
+.wrapper {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    margin: 0 auto 0 auto;
+    max-width: 375px;
+    padding: 30px 30px 40px;
+}
+
+/** Heading **/
+
+header img {
+    height: 30px;
+    width: 140px;
+}
+
+/** Main Content **/
+
+main {
+    text-align: center;
+}
+
+section img {
+    margin: 60px 0 40px;
+    width: 300px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 5px 7px;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 10px 15px;
+}
+
+.RegisterBtn {
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px -2px hsl(257, 40%, 29%);
+    display: inline-block;
+    margin: 10px 10px 60px;
+    padding: 10px 80px;
+    vertical-align: text-bottom;
+}
+
+h3 {
+    color: hsl(257, 40%, 49%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.70rem;
+    font-weight: 400;
+    
+}
+
+/** Footer **/
+
+footer {
+    text-align: center;
+}
+
+/* Online Presence & Attribution */
+
+.fab {
+    font-size: 0.8rem;
+    vertical-align: sub;
+}
+
+.OPBorder {
+    border: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    display: inline-block;
+    height: 27px;
+    width: 27px;
+    margin: 3px;
+}
+
+/** Attribution **/
+
+.attribution {
+    background-color: hsl(257, 40%, 19%);
+    color: white;
+    font-size: 11px;
+    max-width: 375px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2px 0;
+}
+
+.attribution a { 
+    color: hsl(257, 40%, 59%);
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.attribution strong { 
+    color: hsl(257, 40%, 59%);
+}
+
+/**** Responsive Styling ****/
+
+@media (min-width:960px) {
+
+/*** Wrapper ***/
+
+.wrapper {
+    background-image: url(../images/bg-desktop.svg);
+    max-width: 1440px;
+    padding: 60px 60px 0 60px;
+}
+
+/** Heading **/
+
+header img {
+    height: auto;
+    width: 220px;
+}
+
+/** Main Content **/
+
+main {
+    display: flex;
+    padding: 70px 5px 15px;
+    text-align: left;
+}
+
+section img {
+    margin: 0;
+    width: 700px;
+}
+
+h1 {
+    font-size: 2.2rem;
+    line-height: 1.75;
+    margin: 40px 0 20px 40px;
+    padding: 0;
+}
+
+h2 {
+    font-size: 1.05rem;
+    margin: 0 0 20px 40px;
+}
+
+.RegisterBtn {
+    box-shadow: 0 4px 10px 3px hsl(257, 40%, 29%);
+    margin: 10px 0 0 40px;
+    padding: 15px 65px;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+/** Footer **/
+
+footer {
+    text-align: right;
+    padding-bottom: 50px;
+}
+
+/* Online Presence & Attribution */
+
+.fab {
+    font-size: 1.1rem;
+    padding: 8px;
+}
+
+.OPBorder {
+    height: 35px;
+    width: 35px;
+    margin: 5px;
+    text-align: center;
+}
+
+/** Attribution **/
+
+.attribution {
+    max-width: 1440px;
+}
+
+}
